@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open",
-    "build": "webpack",
+    "build": "webpack --mode production",
     "eject": "react-scripts eject"
   },
   "keywords": [],
