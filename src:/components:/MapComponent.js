@@ -13,7 +13,7 @@ const MapComponent = ({ userLocation, generatedRoute }) => {
     const loadGoogleMapsAPI = () => {
       if (!window.google) {
         const script = document.createElement("script");
-        script.src = `AIzaSyDR71IqJ_iUhaWs6gJ-PJlKXm9gntELqlI`;
+        script.src = `;
         script.async = true;
         script.onload = initializeMap;
         document.head.appendChild(script);
